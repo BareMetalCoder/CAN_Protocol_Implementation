@@ -1,0 +1,11 @@
+extern void lcd_data(unsigned char );
+extern void lcd_cmd(unsigned char );
+extern void lcd_init(void);
+extern void delay_ms(unsigned int );
+extern void delay_sec(unsigned int );
+extern void lcd_string(char *);
+extern void lcd_cgram(void);
+extern void lcd_atoi(int);
+extern void lcd_atof(double f);
+extern void uart0_init(unsigned int);
+extern void uart0_tx(unsigned char);

@@ -1,0 +1,17 @@
+#include<lpcxx.h>
+#include"header.h"
+void main()
+{
+	int i;
+	IODIR0=0xFF;;
+	IOSET0=0xFF;
+	while(1)
+	{
+		 
+
+
+
+			
+	
+
+
